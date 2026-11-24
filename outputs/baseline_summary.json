@@ -1,0 +1,140 @@
+{
+  "inward_rakes": 251,
+  "outward_rakes": 365,
+  "inward_rakes_per_day": {
+    "n": 31,
+    "median": 8.0,
+    "p90": 11.0,
+    "mean": 8.1
+  },
+  "inward_wait_h": {
+    "n": 251,
+    "median": 1.75,
+    "p90": 4.25,
+    "mean": 2.2
+  },
+  "inward_unload_h_manual": {
+    "n": 171,
+    "median": 4.75,
+    "p90": 6.67,
+    "mean": 5.23
+  },
+  "inward_unload_h_tippler": {
+    "n": 78,
+    "median": 6.83,
+    "p90": 10.31,
+    "mean": 7.24
+  },
+  "inward_total_h": {
+    "n": 251,
+    "median": 7.5,
+    "p90": 12.5,
+    "mean": 8.7
+  },
+  "inward_rakes_with_demurrage": 131,
+  "inward_dem_hours": 446,
+  "inward_dem_cost": 3827407.5,
+  "outward_wait_h": {
+    "n": 365,
+    "median": 2.17,
+    "p90": 5.42,
+    "mean": 2.66
+  },
+  "outward_load_h": {
+    "n": 365,
+    "median": 5.25,
+    "p90": 8.5,
+    "mean": 5.43
+  },
+  "outward_drawout_to_departure_h": {
+    "n": 356,
+    "median": 10.58,
+    "p90": 25.12,
+    "mean": 14.08
+  },
+  "outward_rakes_with_demurrage": 303,
+  "outward_dem_hours": 1266,
+  "outward_dem_cost": 10731712.5,
+  "outward_load_h_by_mode": {
+    "MANUAL": {
+      "n": 205,
+      "median": 5.17,
+      "p90": 8.83,
+      "mean": 5.44
+    },
+    "SILO": {
+      "n": 95,
+      "median": 4.08,
+      "p90": 6.6,
+      "mean": 4.53
+    },
+    "W/L": {
+      "n": 30,
+      "median": 6.21,
+      "p90": 8.31,
+      "mean": 6.37
+    },
+    "W/L+MAN": {
+      "n": 33,
+      "median": 6.5,
+      "p90": 8.88,
+      "mean": 7.02
+    }
+  },
+  "inward_delay_tags": {
+    "bunching": 25,
+    "equipment_tippler": 23,
+    "previous_rake": 12,
+    "wagon_defect": 9,
+    "equipment_stacker": 9,
+    "labour_cleaning": 5,
+    "loco_power": 2,
+    "weather_wet": 2,
+    "derailment": 1,
+    "equipment_loading": 1
+  },
+  "outward_delay_tags": {
+    "labour_cleaning": 175,
+    "equipment_loading": 87,
+    "previous_rake": 84,
+    "wagon_defect": 34,
+    "loco_power": 28,
+    "weather_wet": 8,
+    "equipment_tippler": 6,
+    "bunching": 5,
+    "equipment_stacker": 4
+  },
+  "inward_dem_rakes_without_reason": 24,
+  "busy_day_correlation": 0.4,
+  "dem_h_per_rake_on_days_le7": 1.76,
+  "dem_h_per_rake_on_days_ge10": 1.73,
+  "inward_top10pct_share_of_cost": 0.457,
+  "clustering_dem_h_by_prev6": {
+    "dem": {
+      "0": 0.73,
+      "1": 1.52,
+      "2": 1.78,
+      "3 or more": 2.4
+    },
+    "n": {
+      "0": 15,
+      "1": 67,
+      "2": 116,
+      "3 or more": 53
+    }
+  },
+  "outward_pct_over_free_by_mode": {
+    "over": {
+      "Silo": 76.8,
+      "Manual": 81.0,
+      "Wagon loader + manual": 97.0,
+      "Wagon loader": 100.0
+    },
+    "n": {
+      "Silo": 95,
+      "Manual": 205,
+      "Wagon loader + manual": 33,
+      "Wagon loader": 30
+    }
+  }
+}

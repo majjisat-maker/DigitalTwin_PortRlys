@@ -1,0 +1,7 @@
+{
+  "runs_per_scenario": 100,
+  "calibration": {
+    "tippler_block_share": 0.7,
+    "inward_work_calib": 0.85
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "_note": "Generic, anonymised site parameters for the rake turnaround digital twin. Source: site expert inputs and plant details from an O&M document (used for plant facts only; not published). No company or location is named.",
+  "yard": {
+    "total_sidings": 21,
+    "total_track_km_including_turnouts": 52.5,
+    "max_speed_kmph": 30,
+    "signalling": "non-interlocking",
+    "motor_points": 30,
+    "hand_operated_points": 45,
+    "level_crossings": {
+      "total": 25,
+      "manned": 4,
+      "unmanned": 21
+    },
+    "in_motion_weighbridges": 3,
+    "reception_yards": {
+      "yard_1_lines": {
+        "1": 789,
+        "1A": 916,
+        "2": 772,
+        "3": 824,
+        "4": 818,
+        "5": 855,
+        "6": 713,
+        "6B": 1016
+      },
+      "yard_2_lines": {
+        "7": 773,
+        "7C": 848,
+        "8": 785,
+        "9": 784,
+        "10": 827
+      },
+      "_unit": "metres",
+      "railway_engine_lie_over_line_m": 550
+    },
+    "unloading_points": {
+      "wagon_tippler": 1,
+      "manual_lines_seen_in_data": [
+        "11",
+        "6",
+        "Zero Point 1&2",
+        "Zero Point 3&5",
+        "Zero Point 4&5",
+        "7",
+        "3",
+        "6B",
+        "9"
+      ],
+      "rule": "Tippler: one rake at a time (only one tippler). Manual: one rake per line at a time; several manual lines can work in parallel (max 5 at once in July)."
+    },
+    "loading_points": [
+      "silo (siding 10)",
+      "wagon loader (lines 1-2)",
+      "manual lines (4, 6, 6A, 12, ESC, covered sheds)"
+    ],
+    "placement_mode": "push or pull, decided by siding layout"
+  },
+  "locomotives": {
+    "total": 10,
+    "types": [
+      {
+        "class": "1200 HP shunter",
+        "count": 4
+      },
+      {
+        "class": "3100 HP mainline-type",
+        "count": 6
+      }
+    ],
+    "max_under_maintenance_at_once": 1,
+    "min_available_assumed": 9
+  },
+  "tippler": {
+    "rated_tph": [
+      2700,
+      3000
+    ],
+    "rated_tips_per_hour": 24,
+    "rated_hours_per_59_wagon_rake": 2.5,
+    "observed_median_wagons_per_hour_july": 8.7,
+    "observed_median_hours_per_rake_july": 6.7
+  },
+  "contract_rules": {
+    "free_hours": {
+      "inward_unloading": 6.5,
+      "outward_loading_default": 5.5,
+      "outward_limestone_pellets": 4.5,
+      "outward_covered_wagons": 7.5
+    },
+    "demurrage_base_rate_per_wagon_hour": 150,
+    "demurrage_slabs": [
+      [
+        0,
+        6,
+        1.0
+      ],
+      [
+        6,
+        12,
+        1.1
+      ],
+      [
+        12,
+        24,
+        1.25
+      ],
+      [
+        24,
+        48,
+        1.5
+      ],
+      [
+        48,
+        72,
+        2.0
+      ],
+      [
+        72,
+        null,
+        3.0
+      ]
+    ],
+    "customer_owned_rakes_pay_demurrage": false,
+    "all_rakes_weighed_in_and_out": true
+  }
+}

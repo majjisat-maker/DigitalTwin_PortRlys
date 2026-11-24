@@ -1,0 +1,120 @@
+{
+  "inward_arrivals_per_hour_profile": {
+    "0": 0.323,
+    "1": 0.387,
+    "2": 0.355,
+    "3": 0.194,
+    "4": 0.355,
+    "5": 0.355,
+    "6": 0.161,
+    "7": 0.452,
+    "8": 0.29,
+    "9": 0.484,
+    "10": 0.355,
+    "11": 0.484,
+    "12": 0.484,
+    "13": 0.419,
+    "14": 0.323,
+    "15": 0.355,
+    "16": 0.355,
+    "17": 0.387,
+    "18": 0.323,
+    "19": 0.29,
+    "20": 0.226,
+    "21": 0.258,
+    "22": 0.323,
+    "23": 0.161
+  },
+  "inward_interarrival_h": {
+    "n": 250,
+    "median": 2.5,
+    "p90": 4.83,
+    "mean": 2.95
+  },
+  "inward_mode_share": {
+    "MANUAL": 0.689,
+    "TIPPLER": 0.311
+  },
+  "inward_unload_manual": {
+    "dist": "lognormal",
+    "shape": 0.2905,
+    "scale": 4.9661,
+    "ks_p": 0.0
+  },
+  "inward_unload_tippler": {
+    "dist": "lognormal",
+    "shape": 0.3437,
+    "scale": 6.8268,
+    "ks_p": 0.934
+  },
+  "inward_free_hours": 6.5,
+  "release_h_assumed": 0.5,
+  "outward_backload_share": 0.556,
+  "outward_load_by_mode": {
+    "MANUAL": {
+      "dist": "lognormal",
+      "shape": 0.5054,
+      "scale": 4.8477,
+      "ks_p": 0.298
+    },
+    "SILO": {
+      "dist": "lognormal",
+      "shape": 0.3738,
+      "scale": 4.2149,
+      "ks_p": 0.976
+    },
+    "W/L": {
+      "dist": "lognormal",
+      "shape": 0.3442,
+      "scale": 6.0458,
+      "ks_p": 0.377
+    },
+    "W/L+MAN": {
+      "dist": "lognormal",
+      "shape": 0.2255,
+      "scale": 6.838,
+      "ks_p": 0.704
+    }
+  },
+  "outward_drawout_to_departure": {
+    "dist": "lognormal",
+    "shape": 0.7077,
+    "scale": 10.679,
+    "ks_p": 0.91
+  },
+  "demurrage_rule": {
+    "base_rate_per_wagon_hour": 150,
+    "slabs": [
+      [
+        0,
+        6,
+        1.0
+      ],
+      [
+        6,
+        12,
+        1.1
+      ],
+      [
+        12,
+        24,
+        1.25
+      ],
+      [
+        24,
+        48,
+        1.5
+      ],
+      [
+        48,
+        72,
+        2.0
+      ],
+      [
+        72,
+        null,
+        3.0
+      ]
+    ]
+  }
+}

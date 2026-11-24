@@ -1,0 +1,9 @@
+measure,actual,model_mean,model_low_5pct,model_high_95pct,error_pct
+Inward: % rakes over free time,52.2,53.4,49.8,57.8,2.3
+Inward: demurrage hours,446.0,440.6,366.7,513.0,-1.2
+Inward: demurrage (Rs lakh),38.3,38.6,32.2,45.0,0.9
+Outward: median hours in yard,8.5,8.2,7.9,8.4,-3.6
+Outward: % rakes over free time,83.0,83.4,80.8,86.0,0.4
+Outward: demurrage hours,1266.0,1319.8,1241.6,1396.4,4.2
+Outward: demurrage (Rs lakh),107.3,112.9,106.1,119.4,5.2
+Whole yard: demurrage (Rs lakh),145.6,151.5,141.2,160.3,4.0

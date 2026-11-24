@@ -1,0 +1,9 @@
+scenario,inward_lakh,outward_lakh,total_lakh,total_low,total_high,in_pct_over,out_pct_over,tippler_wait_h,saving_lakh_per_month,saving_crore_per_year
+Baseline (July 2025),38.61,112.87,151.48,141.17,160.35,53.41,83.36,2.4,0.0,0.0
+Tippler 25% faster,30.59,112.54,143.13,134.16,151.76,47.05,83.23,2.18,8.3,1.0
+Tippler 50% faster,27.77,112.18,139.95,127.72,149.48,42.49,82.98,2.03,11.5,1.38
+Inward arrivals spread evenly,38.57,112.93,151.5,138.11,164.57,52.76,83.16,2.39,-0.0,-0.0
+Placement steps 30 min quicker,32.98,100.44,133.42,123.75,144.42,44.17,78.58,1.91,18.1,2.17
+Loading 15% faster,38.56,92.89,131.45,122.11,140.24,53.07,78.41,2.43,20.0,2.4
+Only 5 locos (stress test),38.54,112.85,151.38,141.17,159.49,53.47,83.36,2.4,0.1,0.01
+"Combined: tippler +25%, even arrivals, placement -30 min, loading +15%",25.31,82.45,107.76,97.77,117.4,37.47,73.21,1.66,43.7,5.24
