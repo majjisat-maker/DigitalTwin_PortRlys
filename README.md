@@ -2,8 +2,8 @@
 
 **A data-driven simulation of one month of real rail operations (July 2025), built to find where demurrage comes from and what fixing it is worth.**
 
-👉 **Live dashboard:** _add your Streamlit link here_
-👉 **Video walkthrough:** _add your YouTube link here_
+👉 **Live dashboard:** _add your Streamli[https://rake-digitaltwin-satishmajji.streamlit.app]
+👉 **Video walkthrough:** _add your YouTube l👉 **YouTube channel:** https://www.youtube.com/@BeyondTheObviousSM
 
 ![Dashboard](outputs/dashboard_screenshot.png)
 
